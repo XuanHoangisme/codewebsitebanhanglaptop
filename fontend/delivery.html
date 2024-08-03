@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>laptop.com</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"> <!--đưa các thẻ về giá trị mặc định-->
+        <link rel="stylesheet" href="./giaodien/css/style.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./giaodien/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+    </head>
+    <body>
+        <!---------------------------------------------phần đầu các chức năng------------------>
+    <header>
+        <div class="logoweb">
+            <img src="./giaodien/img/logo.png" alt="">
+        </div>
+        <ul class="menu">
+            <li><a href="">Laptop mới</a>
+                <ul class="sub-menu">
+                    <li><a href="">Laptop chính hãng</a>
+                        <ul>
+                            <li><a href="">Laptop Asus</a></li>
+                            <li><a href="">Laptop Dell</a></li>
+                            <li><a href="">Laptop Lenovo</a></li>
+                            <li><a href="">Laptop HP</a></li>
+                            <li><a href="">Laptop MSI</a></li>
+                            <li><a href="">Laptop Acer</a></li>
+                            <li><a href="">Laptop LG</a></li>
+                            <li><a href="">MACBOOK</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Laptop theo nhu cầu</a>
+                        <ul>
+                            <li><a href="">Laptop sinh viên-văn phòng</a></li>
+                            <li><a href="">Laptop sinh Gaming</a></li>
+                            <li><a href="">Laptop sinh đồ họa</a></li>
+                            <li><a href="">Laptop sinh mỏng nhẹ</a></li>
+                        </ul>
+                    </li>
+                </ul>           
+            </li>
+            <li><a href="">Laptop cũ</a></li>
+            <li><a href="">PC-Máy tính để bàn</a></li>
+            <li><a href="">Màn hình máy tính</a></li>
+            <li><a href="">Phụ kiện máy tính</a></li>
+        </ul>
+        <ul class="others">
+            <li><input placeholder="Tìm kiếm" type="text"><i class="fa-solid fa-magnifying-glass"></i></li>
+            <li><i class="fa-solid fa-paw"></i></li>
+            <li><i class="fa-solid fa-user"></i></li>
+            <li><i class="fa-solid fa-bag-shopping"></i></li>
+        </ul>
+    </header>
+
+    <!-------------------------Delivery------------------------------>
+    <section class="delivery">
+        <div class="container">
+            <div class="delivery-top-wrap">
+                <div class="delivery-top">
+                    <div class="delivery-top-delivery delivery-top-item ">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </div>
+                    <div class="delivery-top-adress  delivery-top-item">
+                        <i class="fa-solid fa-location-dot "></i>
+                    </div>
+                    <div class="delivery-top-payment delivery-top-item" >
+                        <i class="fa-solid fa-money-check "></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="delivery-content row">
+                <div class="delivery-content-left">
+                    <p>Vui lòng chọn địa chỉ giao hàng</p>
+                    <div class="delivery-content-left-dangnhap row">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <p>Đăng nhập (Nếu bạn đã có tài khoản của IVY)</p>
+                    </div>
+                    <div class="delivery-content-left-khachle row">
+                        <input checked name="loaikhach" type="radio">
+                        <p><span style="font-weight: bold;">Khách lẻ</span> (Nếu bạn không muốn lưu lại thông tin)</p>
+                    </div>
+                    <div class="delivery-content-left-dangky row">
+                        <input type="radio" name="loaikhach">
+                        <p><span style="font-weight: bold;">Đăng ký</span> (Tạo tài khoản với thông tin bên dưới)</p>
+                    </div>
+                    <div class="delivery-content-left-input-top row">
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Họ tên <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Điện thoại <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Tỉnh/TP <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Quận/Huyện <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Địa chỉ <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        
+                    </div>
+                    <div class="delivery-content-left-button">
+                        <a href=""><span>&#171;</span><p> Quay lại giỏ hàng</p></a>
+                        <button><p style="font-weight: bold;">THANH TOÁN VÀ GIAO HÀNG</p></button>
+                    </div>
+                </div>
+                <div class="delivery-content-right">
+                    <table>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Giảm giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                        <tr>
+                            <td>Laptop Acer Nitro 5 AN515-58-525P</td>
+                            <td>15%</td>
+                            <td>1
+                            </td>
+                            <td><p>15.000.000 <sup>đ</sup></p></td>
+                            
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng tiền hàng</td>
+                            <td style="font-weight: bold;"><p>15.000.000 <sup>đ</sup></p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------FOOTER------------------------------>
+    <section class="footer">
+        <div class="footer-introduce1">
+            <h1>Thông tin công ty</h1>
+                <ul class="footer-introduce1--size">
+                <li>Laptop88.vn</li>
+                <li>CÔNG TY CỔ PHẦN 88 GROUP VIỆT NAM</li>
+                <li>Số 28/2/49/53 Đức Giang, Phường Thượng Thanh, Quận Long Biên, Thành phố Hà Nội, Việt Nam</li>
+                <li>SĐT: 024.7106.9999</li>
+                <li>Website: laptop.com</li>
+                <li>Mã số doanh nghiệp: 0108529423, cấp lần đầu ngày 28/11/2018</li>
+                <li>Sở KHĐT TP. Hà Nội cấp</li>
+                </ul>
+        </div>
+        <div class="footer-introduce2">
+            <h1>Thanh Toán</h1>
+            <ul class="footer-introduce2--size">
+            <li>Thanh toán trực tuyến(Internet banking)</li>
+            <li>Thanh toán khi nhận hàng(COD)</li>
+            </ul>
+        </div>
+        <div class="footer-introduce3">
+            <h1>Về LAPTOP88.VN</h1>
+            <ul class="footer-introduce3--size">
+                <li>Chăm sóc khách hàng:</li>
+                <li>*Hotline: 0247.106.9999</li>
+                <li>*Thời gian:24/7</li>
+            </ul>
+        </div>
+    </section>
+</html>
